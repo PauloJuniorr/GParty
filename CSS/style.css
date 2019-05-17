@@ -1,20 +1,38 @@
-@font-face {
-
-      font-family: "Chomsky";
-      src: url("Chomsky.otf") format("truetype");
-
-      }
-
-@font-face{
-	font-family: "Black family";
- src: url("Black family.ttf") format("truetype");
-
+#barra {
+  background-color: #DC143C; 
+  height: 70px; 
+  border-radius: 5px;
 }
 
-  .Chomsky-font{
-  	font-family: "Chomsky";
-  }
+#subbarra {
+  font-family: Black family;
+  font-size: 40px;
+}
 
-  .Black-family-font{
-  	font-family: "Black family";
-  }
+#slide {
+  color: #000000;
+  font-family: Arial;
+}
+
+#slide2 {
+  color: #FFFFFF;
+  font-family: arial;
+}
+
+#slide3 {
+  color: #FFFFFF;
+  font-family: Arial;
+}
+
+#footer {
+  background-color: #DC143C;
+  display: flex;
+  min-height: 10vh;
+  flex-direction: column;
+}
+
+#position_night {
+  position: absolute; 
+  left: 1450px; /* posiciona a 90px para a esquerda */ 
+  top: 80px; /* posiciona a 70px para baixo */
+}
