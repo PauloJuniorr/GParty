@@ -1,0 +1,20 @@
+@font-face {
+
+      font-family: "Chomsky";
+      src: url("Chomsky.otf") format("truetype");
+
+      }
+
+@font-face{
+	font-family: "Black family";
+ src: url("Black family.ttf") format("truetype");
+
+}
+
+  .Chomsky-font{
+  	font-family: "Chomsky";
+  }
+
+  .Black-family-font{
+  	font-family: "Black family";
+  }
